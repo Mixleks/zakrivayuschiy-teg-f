@@ -29,6 +29,7 @@
   text-align: center;
   font-family: var(--acent_font);
   border: 2px #000 solid;
+  font-weight: var(--main_font_weight);
 }
 
 .header_logo {
@@ -51,6 +52,7 @@
 }
 
 .card_main_text {
+  font-weight: var(--acent_font_weight);
   font-size: 18px;
   padding-block: 3px;
 }
@@ -194,7 +196,7 @@ footer .button-hover-effect svg {
   font-family: var(--acent_font);
   line-height: 150%;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: var(--main_font_weight);
 }
 
 .dialog_text-container {
