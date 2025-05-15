@@ -1,21 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --main_font: "Inter-Variable",sans-serif;
-  --acent_font: "PressStart2P-Regular",fantasy;
+  --acent_font: "PressStart2P",fantasy;
   --main_font_weight: 400;
   --acent_font_weight: 700;
   --section-max-width: clamp(23.438rem, 16.373rem + 30.14vw, 43.5rem);
   --outline-color: #fff;
   --bg-grid: repeating-linear-gradient(
       to right,
-      #d3d3d3 0 1px,
-      transparent 1px 2px
+      #d3d3d3 0 2px,
+      transparent 2px 4px
     ),
-    repeating-linear-gradient(to bottom, #d3d3d3 0 1px, transparent 1px 2px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
   --text-color: #fff;
   --bg-hover-color: #000;
-  --red-color-heart: #ff0000;
+  --heart-accent-fill: #ff0000;
   --none-color-heart: rgba(256, 0, 0, 0);
-  --black-color-heart: #000;
+  --heart-transparent-fill: #000;
 }
