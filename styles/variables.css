@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --main_font: "Inter-Variable",sans-serif;
-  --acent_font: "PressStart2P",fantasy;
+  --main_font: "Inter-Variable", sans-serif;
+  --acent_font: "PressStart2P", fantasy;
   --main_font_weight: 400;
   --acent_font_weight: 700;
   --section-max-width: clamp(23.438rem, 16.373rem + 30.14vw, 43.5rem);

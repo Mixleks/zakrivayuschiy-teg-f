@@ -83,9 +83,8 @@
   font-family: var(--acent_font), fantasy;
   opacity: 0.5;
   font-size: 14px;
-  text-shadow: -1px -1px 0 var(--outline-color),
-  1px -1px 0 var(--outline-color), -1px 1px 0 var(--outline-color),
-  1px 1px 0 var(--outline-color);
+  text-shadow: -1px -1px 0 var(--outline-color), 1px -1px 0 var(--outline-color),
+    -1px 1px 0 var(--outline-color), 1px 1px 0 var(--outline-color);
 }
 
 .decription_card {
@@ -154,7 +153,7 @@ p {
     contrast(1.2);
 }
 
-.filter-invert{
+.filter-invert {
   filter: invert(1);
 }
 
