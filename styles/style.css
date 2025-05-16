@@ -179,6 +179,7 @@ p {
 
 .footer .button {
   padding: 15px 19px;
+  gap:8px;
 }
 
 .floppy-image {
@@ -238,8 +239,7 @@ dialog::backdrop {
 
 .card__icon-button:focus-visible {
   outline: none;
-  border: 2px #000 solid;
-  border-color: var(--bg-hover-color);
+  border: 2px var(--bg-hover-color) solid;
 }
 
 .button-hover-effect {
@@ -344,11 +344,14 @@ dialog::backdrop {
     flex-direction: column;
     gap: 8px;
     padding: 15px 20px;
-    margin-block: 52px 100px;
+    margin-block-start: 2px;
   }
   .footer_button svg {
     width: 28px;
     height: 28px;
+  }
+  .footer {
+    margin-block-end: 100px;
   }
 }
 
